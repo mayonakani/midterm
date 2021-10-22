@@ -1,23 +1,48 @@
 /* you can change any of the default styles below */
 
 * {
-  margin: 0;
-  padding: 0;
-  font-size: 10px;
+background-color: #98dfea;
+font-family: Montserrat;
 }
 
 nav {
   height: 15px;
+  position: sticky;
+  position:-webkit-sticky;
+  font-family: Quicksand;
 }
 
-main {
-  background-color: #F8F4E3
-  height: 100vh;
+div{
+  border-style: ridge;
+  border-color: #fffff2;
+  position: relative;
+  left: 400px;
+  bottom: 400px;
+  height: 400px;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color:#07beb8;
+}
+
+a:visited {
+  color: #8f3985;
+}
+
+a:hover {
+  color: #25283d;
+}
+
+
+
 
 p {
-  color: 2A2B2A;
-  fontsize: 1.8rem;
+  color: #2A2B2A;
+  font-size: 1.8rem;
 }
 
 img {
